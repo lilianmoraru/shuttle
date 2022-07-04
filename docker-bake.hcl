@@ -1,5 +1,5 @@
 variable "registry" {
-  default = "public.ecr.aws/j5v8s8v8"
+  default = "public.ecr.aws/shuttle"
 }
 
 variable "context" {
