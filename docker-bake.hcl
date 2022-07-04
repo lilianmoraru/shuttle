@@ -6,12 +6,12 @@ variable "context" {
   default = "."
 }
 
-target "backend" {
+target "pod" {
   dockerfile = "Containerfile"
   context = "${context}"
-  tags = ["${registry}/backend"]
+  tags = ["${registry}/pod"]
   args = {
-    crate = "shuttle-api"
+    crate = "shuttle-pod"
   }
 }
 

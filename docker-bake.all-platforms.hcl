@@ -17,13 +17,13 @@
 # You can then build all images with:
 #
 # ```bash
-# docker buildx bake -f docker-bake.hcl -f docker-bake.all-platforms.hcl provisioner api
+# docker buildx bake -f docker-bake.hcl -f docker-bake.all-platforms.hcl provisioner pod
 # ```bash
 
 target "provisioner" {
   platforms = ["linux/arm64", "linux/amd64"]
 }
 
-target "api" {
+target "pod" {
   platforms = ["linux/arm64", "linux/amd64"]
 }

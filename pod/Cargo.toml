@@ -1,5 +1,5 @@
 [package]
-name = "shuttle-api"
+name = "shuttle-pod"
 version = "0.1.2"
 edition = "2021"
 publish = false
