@@ -1,9 +1,9 @@
 [workspace]
 members = [
-  "pod",
   "cargo-shuttle",
   "codegen",
   "common",
+  "pod",
   "proto",
   "provisioner",
   "service"
